@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+
+/* ============================================================= */
+/* HEADER */
+/* ============================================================= */
+
+.navbar{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 17px;
+  /* line-height: 26px; */
+  text-transform: uppercase;
+  box-shadow: 0px 8px 6px -6px gray;
+  border-bottom: 0.5px solid gray;
+}
+
+.navbar a:hover{
+  font-weight: 600;
+  color: royalblue;
+}
+
+.active{
+  border-bottom: 2px solid black;
+}
+
+
+.navbar-brand{
+  font-weight: 600;
+}
+
+
+/* ============================================================= */
+/* FOOTER */
+/* ============================================================= */
+
+.footer{
+  color: white;
+  background-color:#434343;
+  padding: 20px;
+  padding-bottom: 0.1px;
+}
+
+.footer a{
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.footer a:hover{
+  font-weight: 600;
+  color: royalblue;
+}
+
+
+/* ============================================================= */
+/* Page not found */
+/* ============================================================= */
+
+.pnf{
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pnf-title{
+  font-size: 110px;
+  font-weight: 700;
+}
+
+.pnf-btn{
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+
+/* ============================================================= */
+/* Register */
+/* ============================================================= */
+.register{
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.register input{
+  width: 300px;
+}
+
+
+
+/* ============================================================= */
+/* LOGIN */
+/* ============================================================= */
+.login{
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login input{
+  width: 300px;
+}
+
+
+
+/* ============================================================= */
+/* Product.js */
+/* ============================================================= */
+.product-link{
+  text-decoration: none;
+  color: black !important; 
+}
+
+
+
+
+
+
